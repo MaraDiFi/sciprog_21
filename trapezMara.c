@@ -1,10 +1,10 @@
-#include<stdio.h>
+nclude<stdio.h>
 #include<math.h>
 
 int main (){
 
-  int N=200, i;
-    float a=0.0, b_deg=80.0;
+  int N=61, i;
+    float a=0.0, b_deg=60.0;
 
       //Convert pi/3 to radians
 
@@ -18,9 +18,9 @@ int main (){
 
 		      //calculate the area points 2*f(x1)+2*f(x2)+...+2*f(xn-1)
 
-		         for(i=100; i<80; i=i+100){
+		         for(i=1; i<60; i=i+1){
 			    area=area+2*tan((M_PI*i)/180.0);
-			       printf("New area at x%d =%f\n", i/100, area);
+			       printf("New area at x%d=%f\n", i/1, area);
 			       }
 
 			       //Multiply with b-a/2N
@@ -37,4 +37,6 @@ int main (){
 				   return 0;
 
 				   }
-				  
+				   ~
+				   ~
+
