@@ -1,0 +1,9 @@
+Hello, 
+
+in this folder you can find the codes required for the practical03.
+
+Each code was first tried on sciprog and they were working. 
+
+-Note: Math library in "IntegralArea.c" file was included. Please add "-lm" when compiling the code.
+
+Mara
